@@ -2,19 +2,22 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:background="@null"
+    android:layout_height="wrap_content"
     tools:context="com.microsoft.darksage.enabler.MainActivity">
 
     <Button
-        android:id="@+id/switch3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
+        android:id="@+id/sbtn"
+        android:layout_width="139dp"
+        android:layout_height="62dp"
         android:background="@drawable/ripple"
+        android:text="Sample Button"
         android:textOn="@string/Toggle"
-        tools:layout_editor_absoluteX="721dp"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="106dp" />
 
 
 </android.support.constraint.ConstraintLayout>
